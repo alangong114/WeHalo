@@ -47,7 +47,7 @@
         <i-divider>{{Author}}</i-divider>
     </view>
 
-    <ad class='ad' unit-id=""></ad>
+    <!-- <ad class='ad' unit-id=""></ad> -->
 
 </view>
 

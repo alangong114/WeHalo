@@ -3,16 +3,16 @@
 <view class="mask" hidden="{{aflag}}" catchtap="closeMask">
     <view class="masks" catchtap="prevent" animation="{{ani}}">
         <view class="box">
-            <image class="leftImage" mode="widthFix" src="https://blog.eunji.cn/upload/2018/11/微信图片_2018122511545020181225115902899.png"></image>
+            <image class="leftImage" mode="widthFix" src="http://res.gongmc.com/blog/cat.png"></image>
             <view class="right">
                 <view class="title">
-                    <text class="name">Aquan</text>
+                    <text class="name">G_C</text>
                 </view>
                 <view class="info">
                     <view class="field">Email</view>
-                    <view class="value">Aquanlerou@eunji.cn</view>
+                    <view class="value">alangong91014@gmail.com</view>
                     <view class="field">Github</view>
-                    <view class="value">https://github.com/aquanlerou</view>
+                    <view class="value">https://github.com/alangong114</view>
                 </view>
             </view>
         </view>
@@ -36,7 +36,7 @@
     </view>
 
     <view class="nav" hidden="{{nav}}">
-        <view class="nav-text">爱敲代码的猫</view>
+        <view class="nav-text">天机阁</view>
         <view bindtap="showMask" class='qrcode nav-qrcode'></view>
     </view>
 
@@ -69,6 +69,6 @@
 <i-load-more tip="{{Author}}" loading="{{loadMore}}" hidden="{{loadMores}}"/>
 
 
-<view class="ad" >
+<!-- <view class="ad" >
     <ad unit-id=""></ad>
-</view>
+</view> -->

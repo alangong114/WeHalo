@@ -12,7 +12,7 @@ Page({
      */
     data: {
         spinShow: true,
-        Author: "WeHalo",
+        Author: "G_C",
         Num: 5,
         pageNum: 0,
         Flag: 0,

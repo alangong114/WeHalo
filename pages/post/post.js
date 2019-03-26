@@ -18,6 +18,7 @@ Page({
         commentsFlag: false,
         style: app.globalData.highlightStyle,
         userInfo: {},
+        post:{},
         hasUserInfo: false,
         canIUse: wx.canIUse('button.open-type.getUserInfo'),
         userAgent: '',
@@ -192,6 +193,7 @@ Page({
             postTitle: res.result.postTitle,
             comments: res.result.comments,
             commentsCount: res.result.comments.length,
+          Author: res.result.user.userDisplayName
         })
 
         for (i = 0; i < that.data.comments.length; i++) {
