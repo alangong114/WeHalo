@@ -194,7 +194,7 @@
 .nav {
     position: fixed;
     top: 0;
-    background: url("https://blog.eunji.cn/upload/2018/11/code120181219113843975.png") no-repeat;
+    background: url("http://res.gongmc.com/blog/5584b5fb254376c805caa0ac0ba480e1.png") no-repeat;
     background-size: cover;
     color: #fff;
     width: 100%;

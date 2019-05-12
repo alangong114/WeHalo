@@ -201,7 +201,7 @@ Page({
 
     handleQrcode() {
         wx.previewImage({
-            urls: ['https://blog.eunji.cn/upload/2018/11/wx20181208174737572.png']
+            urls: ['http://res.gongmc.com/blog/311e9ad620050a689b8d17f7822cc62e.png']
         })
     },
 
@@ -212,7 +212,7 @@ Page({
         console.log("防止冒泡");
         var self = this;
         wx.setClipboardData({
-            data: "https://github.com/aquanlerou"
+            data: "https://github.com/alangong114"
         });
 
     },
@@ -319,7 +319,7 @@ Page({
         that.setData({
             spinShow: false,
             userName: res.result[0].posts[0].user.userDisplayName,
-            userAvatar: userAvatarUrl + res.result[0].posts[0].user.userAvatar,
+            userAvatar: res.result[0].posts[0].user.userAvatar,
             posts: posts_list,
             posts_list: res.result[0].posts,
             imageUrl: app.globalData.URL,

@@ -36,7 +36,7 @@ App({
     globalData: { //全局变量
         userInfo: null,
       URL: "https://blog.gongmc.com",
-      blogName: "Santu",
+      blogName: "G_C",
       TOKEN: "29e35ab0c9c95d14b5e58b8ecd624af1",
         highlightStyle: "dracula", //代码高亮样式，可用值default,darcula,dracula,tomorrow
     },
